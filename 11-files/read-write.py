@@ -31,7 +31,7 @@ baconContent = baconFile.read()
 print(baconContent)
 
 import shelve
-# use shelf module to save data-structures like dictionaries to files
+# use shelf module to save data-structures like dictionaries and lists to files
 
 shelfFile = shelve.open('mydata')
 shelfFile['cats'] = ['Assepoes', 'Parel', 'Simba', 'Yoda']
@@ -40,3 +40,7 @@ shelfFile.close()
 shelfFile = shelve.open('mydata')
 print(shelfFile['cats'])
 shelfFile.close()
+
+shelfFile = shelve.open('mydata')
+print(list(shelfFile.keys()))
+print(list(shelfFile.values()))
