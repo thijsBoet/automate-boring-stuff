@@ -1,0 +1,1 @@
+@py.exe D:\python\automate-boring-stuff\13-web-scraping\mapit.py %*
