@@ -1,4 +1,6 @@
+# ----------------------------- Basic Regex --------------------------------
 import re
+
 # re == regular expression module
 
 def is_phone_number(text):
@@ -30,6 +32,9 @@ for i in range(len(message)):
 if not foundNumber:
     print('Could not find any phone numbers.')
 
-# Same code with Regular Expression
+# Same code with Regular Expression => shorter
 phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 print(phoneNumRegex.findall(message))
+
+
+
