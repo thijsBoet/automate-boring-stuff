@@ -23,5 +23,6 @@ mo = batRegex.search('Batmobile lost a wheel')
 print(mo.group())
 
 # return None if no matches are found
+# search method finds only first match
 mo = batRegex.search('Batcycle lost a wheel')
 print(mo == None)

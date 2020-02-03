@@ -1,4 +1,4 @@
-# -----------------------------Repetition Patterns--------------------------------
+# ---------------------------- Repetition Patterns -------------------------------
 import re
 
 # (...)? this group of characters can appear zero or one times
