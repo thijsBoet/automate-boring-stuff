@@ -20,8 +20,7 @@ print(datetime.datetime.fromtimestamp(time.time()))
 halloween2020 = datetime.datetime(2019, 10, 31, 0, 0, 0)
 newyears2021 = datetime.datetime(2020, 1, 1, 0, 0, 0)
 if halloween2020 < newyears2021:
-    print(
-        f'Halloween 2020 is {newyears2021 - halloween2020} days before new years 2021')
+    print(f'Halloween 2020 is {newyears2021 - halloween2020} days before new years 2021')
     print()
 
 # timedelta represents a duration of time rather than a moment in time
