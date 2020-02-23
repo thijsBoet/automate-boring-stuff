@@ -35,6 +35,3 @@ if not foundNumber:
 # Same code with Regular Expression => shorter
 phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 print(phoneNumRegex.findall(message))
-
-
-
