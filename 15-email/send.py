@@ -11,4 +11,5 @@ conn.starttls()
 conn.login('m.boet2@upcmail.nl', '#####')
 # sender email | receiver email | Subject: \n\n email body
 conn.sendmail('m.boet@chello.nl', 'creative.steve@gmail.com', 'Subject: Python send mail script\n\nTest email send via python script.\n\nMatthijs')
+
 conn.quit()
